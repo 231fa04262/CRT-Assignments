@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to your CSS and FontAwesome -->
+    <link rel="stylesheet" href="style .css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ====== SIDEBAR ====== -->
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Your Library</h3>
+
+        <div class="box">
+          <p>Create your first playlist</p>
+          <small>It's easy, we'll help you</small>
+          <button>Create playlist</button>
+        </div>
+
+        <div class="box">
+          <p>Let's find some podcasts to follow</p>
+          <small>We'll keep you updated on new episodes</small>
+          <button>Browse podcasts</button>
+        </div>
+      </aside>
+      <!-- ====== END OF SIDEBAR ====== -->
+
+      <!-- ====== MAIN CONTENT AREA ====== -->
+      <div class="main-box">
+        <!-- ====== HEADER ====== -->
+        <div class="header">
+          <div class="hc1">
+            <div class="hc11">
+              <i class="fa-brands fa-spotify brand"></i>
+            </div>
+            <div class="hc12">
+              <i class="fa-solid fa-house home"></i>
+            </div>
+            <div class="hc13">
+              <div class="hc131">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+              <div class="hc132">
+                <input
+                  type="search"
+                  class="ip-ser"
+                  placeholder="what do you want to search?"
+                />
+              </div>
+              <div class="hc133">
+                <i class="fa-solid fa-window-restore search"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc2">
+            <div class="hc21">
+              <a href="">Premium</a>
+              <a href="">Support</a>
+              <a href="">Download</a>
+            </div>
+            <div class="bar"></div>
+            <div class="hc22">
+              <button><i class="fa-solid fa-download"></i> Install App</button>
+            </div>
+            <div class="hc23">
+              <button>Signup</button>
+            </div>
+            <div class="hc24">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+        <!-- ====== END OF HEADER ====== -->
+
+        <!-- ====== TRENDING SONGS SECTION ====== -->
+        <section class="trending-section">
+          <div class="section-header">
+            <h2>Trending songs</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="trending-cards">
+            <!-- Card 1 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/bts.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Boy With Luv</p>
+                <p class="song-artist">BTS</p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/Lana Del Rey.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Margaret</p>
+                <p class="song-artist">Lana Del Rey</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/arijit.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">agar tum saath ho</p>
+                <p class="song-artist">Arijit Singh</p>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/jennie.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Like Jennie</p>
+                <p class="song-artist">Jennie</p>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/billie.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">WILDFLOWER</p>
+                <p class="song-artist">Billie Eilish</p>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/anirudh.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Kollagottey</p>
+                <p class="song-artist">Anirudh Ravichander</p>
+              </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/blackpink.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Shut Down</p>
+                <p class="song-artist">BlackPink</p>
+              </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="song-card">
+              <div class="song-thumb">
+                <img src="images/taylor swift.jpeg" alt="Bad Desire" />
+              </div>
+              <div class="song-info">
+                <p class="song-title">Lover</p>
+                <p class="song-artist">Taylor Swift</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== POPULAR ARTISTS SECTION ====== -->
+        <section class="artists-section">
+          <div class="section-header">
+            <h2>Popular artists</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="artists-cards">
+            <!-- Artist 1 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/PSY.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">PSY</p>
+            </div>
+            <!-- Artist 2 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/weekend.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">Weekend</p>
+            </div>
+            <!-- Artist 3 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/dsp.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">DSP</p>
+            </div>
+            <!-- Artist 4 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/seventeen.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">Seventeen</p>
+            </div>
+            <!-- Artist 5 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/1D.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">One Direction</p>
+            </div>
+            <!-- Artist 6 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/twice (1).jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">Twice</p>
+            </div>
+            <!-- Artist 7 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/ladygaga.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">Lady Gaga</p>
+            </div>
+            <!-- Artist 8 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <img src="images/shreya ghoshal.jpeg" alt="Bad Desire" />
+              </div>
+              <p class="artist-name">Shreya Ghoshal</p>
+            </div>
+          </div>
+        </section>
+        <!-- ====== END OF CONTENT ====== -->
+      </div>
+      <!-- ====== END OF MAIN CONTENT AREA ====== -->
+    </div>
+  </body>
+</html>
